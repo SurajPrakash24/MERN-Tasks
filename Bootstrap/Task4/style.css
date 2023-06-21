@@ -1,0 +1,12 @@
+body{
+    background-color:grey;
+}
+
+.price{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container{
+    margin-top:100px;
+}

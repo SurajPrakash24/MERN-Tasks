@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task-10 : Array Methods</title>
+    <style>
+        h1,
+        h3 {
+            text-align: center;
+        }
+        .body{
+            width: 60%;
+            margin: auto;
+        }
+        input{
+            width: 80px;
+        }
+        button{
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            padding: 5px 8px;
+        }
+        button:hover{
+            color: black;
+            border: 1px solid #4CAF50;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Task-10 : Array Methods</h1>
+    <h3>Suraj Prakash</h3>
+
+    <div class="body">
+        <h2>Enter elements for Array 1:</h2>
+        <input type="number" id="array1Element1" placeholder="Element 1">
+        <input type="number" id="array1Element2" placeholder="Element 2">
+        <input type="number" id="array1Element3" placeholder="Element 3">
+        <input type="number" id="array1Element4" placeholder="Element 4">
+        <input type="number" id="array1Element5" placeholder="Element 5">
+
+        <h2>Enter elements for Array 2:</h2>
+        <input type="number" id="array2Element1" placeholder="Element 1">
+        <input type="number" id="array2Element2" placeholder="Element 2">
+        <input type="number" id="array2Element3" placeholder="Element 3">
+        <input type="number" id="array2Element4" placeholder="Element 4">
+        <input type="number" id="array2Element5" placeholder="Element 5">
+
+        <br><br>
+        <button onclick="performArrayOperations()">Perform Array Operations</button>
+
+        <h2>Results:</h2>
+        <p>Concatenated array: <span id="concatResult"></span></p>
+        <p>Reversed array: <span id="reverseResult"></span></p>
+        <p>Sorted array: <span id="sortResult"></span></p>
+        <p>Filtered array (greater than 5): <span id="filterResult"></span></p>
+        <p>Mapped array (doubled elements): <span id="mapResult"></span></p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

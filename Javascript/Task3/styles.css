@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 40px 0 100px 0;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: 100px auto;
+}
+
+div {
+    margin-top: 10px;
+    ;
+}
+
+textarea {
+    resize: vertical;
+    width: 300px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.n {
+    margin-left: 27px;
+}
+
+.e {
+    margin-left: 27px;
+}
+
+.w {
+    margin-left: 15px;
+}
+
+.m {
+    margin-left: 10px;
+}
+
+button {
+    margin-left: 75px;
+    ;
+}
+
+.error {
+    color: red;
+}
+
+.error-border {
+    border-color: red;
+}

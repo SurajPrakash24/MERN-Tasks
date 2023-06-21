@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  margin-top: 40px 0 100px 0;
+  text-align: center;
+}
+.container{
+  width: 60%;
+  margin: 100px auto;
+  text-align: center;
+}
+#page-number {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+
+}

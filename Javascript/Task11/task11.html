@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task-11 : Registration Form</title>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Task-11</h1>
+  <h3 style="text-align: center;">Suraj Prakash</h3>
+  <div style="background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(241,111,144,1) 0%, rgba(250,255,0,1) 100%); width: 50%; margin: auto; padding-bottom: 30px;">
+    <h2 style="color: blue; text-align: center;">Registration Form</h2>
+    <div>
+      <form onsubmit="return validateForm()" style="margin: 0px 70px;">
+        <table>
+          <tr>
+            <td><label for="fname"><b>First Name:</b></label></td>
+            <td><input type="text" id="fname" name="fname" required></td>
+          </tr>
+          <tr>
+            <td><label for="lname"><b>Last Name:</b></label></td>
+            <td><input type="text" id="lname" name="lname" required></td>
+          </tr>
+          <tr>
+            <td><label for="email"><b>Email:</b></label></td>
+            <td><input type="email" id="email" name="email" required></td>
+          </tr>
+          <tr>
+            <td><label for="password"><b>Password:</b></label></td>
+            <td><input type="password" id="password" name="password" required></td>
+          </tr>
+          <tr>
+            <td><label for="repassword"><b>Re-enter Password:</b></label></td>
+            <td><input type="password" id="repassword" name="repassword" required></td>
+          </tr>
+          <tr>
+            <td><label for="gender"><b>Gender:</b></label></td>
+            <td>
+              <input type="radio" name="val">
+              <label for="gender">Male</label>
+              <input type="radio" name="val">
+              <label for="gender">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="age"><b>Age:</b></label></td>
+            <td><input type="number" id="age" name="age" required></td>
+          </tr>
+          <tr>
+            <td><label for="phone"><b>Phone Number:</b></label></td>
+            <td><input type="tel" id="phone" name="phone" required></td>
+          </tr>
+          <tr>
+            <td><label for="address"><b>Address:</b></label></td>
+            <td><textarea id="address" name="address" rows="4" cols="20" required></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="state"><b>State:</b></label></td>
+            <td><input type="text" id="state" name="state" required></td>
+          </tr>
+          <tr>
+            <td><label for="country"><b>Country:</b></label></td>
+            <td>
+              <select id="country" name="country" required>
+                <option value="">Choose Your Country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="language"><b>Language:</b></label>
+            </td>
+            <td>
+              <input type="checkbox">
+              <label for="language">English</label>
+              <input type="checkbox">
+              <label for="language">Kannada</label>
+              <input type="checkbox">
+              <label for="language">Hindi</label>
+              <input type="checkbox">
+              <label for="language">Telugu</label>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="checkbox" id="declaration" name="declaration" required>
+              <label for="declaration">Hereby I declare that all the given details are true.</label>
+            </td>
+          </tr>
+          <tr>
+            <td style="border:none;" colspan="2" style="text-align: right ;">
+              <span style="position: relative; float:right;">Log in to<a href="https://codemithra.com"> Ethnus</a>
+                website</span>
+            </td>
+          </tr>
+        </table><br>
+        <input style="position: relative; float:right; right:200px; border-radius:20px; background-color: red; padding: 0px 15px;"
+          type="submit" value="Register">
+      </form>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>

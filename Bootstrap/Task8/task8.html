@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Task-8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>BS Task-8 : Form</h2>
+  <p>Suraj Prakash</p>
+    <div class="container mt-5 p-3 px-5">
+
+    <form id="projectForm">
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" name="Name">
+        <small class="error-text"></small>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label> 
+        <input type="email" class="form-control" id="email" name="email">
+        <small class="error-text"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <i class="fas fa-phone"></i>
+        <input type="text" class="form-control" id="password" name="password">
+        <small class="error-text"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="Hobbies">Hobbies</label>
+        <input type="number" class="form-control">
+      </div><br>
+      
+      <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+h1,h3 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+li a {
+    display: block;
+    color: rgb(8, 110, 244);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e1d33f;
+}
+
+.box {
+    border: 1px solid black;
+    width: 15%;
+    padding: 10px 5px;
+    margin: 0 auto;
+}
+.vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #a4d5f7;
+    width: 100%;
+}
+
+.line1 {
+    text-align: center;
+}
+
+li a.active1 {
+    background-color: orange;
+    color: white;
+}

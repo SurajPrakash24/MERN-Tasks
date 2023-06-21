@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+.col{
+    width:300px;
+    padding: 50px 50px 50px 50px;
+}
+
+a{
+    color:rgb(254, 207, 0);
+}

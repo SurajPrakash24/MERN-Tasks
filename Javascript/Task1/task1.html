@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JS Task-1 : Date and Time</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      margin-top: 40px 0 100px 0;
+      text-align: center;
+    }
+    .container{
+      width: 60%;
+      margin: 100px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>JavaScript Task-1 : Date and Time</h1>
+  <h3>Suraj Prakash</h3>
+  <div class="container">
+    <button type="button" onclick="showDate()">Show Date</button>
+    <p id="DateDisplay"></p>
+
+    <button type="button" onclick="showTime()">Show Time</button>
+    <p id="TimeDisplay"></p>
+  </div>
+
+  <script>
+    function showDate() {
+      var currentDate = new Date();
+      document.getElementById("DateDisplay").innerHTML = new Date().getDate() + "/" + new Intl.DateTimeFormat('en-US', { month: 'long' }).format(new Date()) + "/" + new Date().getFullYear();
+
+    }
+    function showTime() {
+      var currentDate = new Date();
+      document.getElementById("TimeDisplay").innerHTML = Date();
+
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+div {
+    width: 400px;
+    text-align: center;
+    margin: 100px auto;
+    border: 2px solid rgb(88, 88, 88);
+    padding: 10px 20px 50px 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+h1 {
+    text-align: center;
+}
+
+div h1 {
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-top: 40px 0 100px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#sortedString {
+    color: #f46918;
+    font-size: xx-large;
+}
+input[type=submit] {
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    background-color: #4CAF50;
+}

@@ -1,0 +1,27 @@
+.form-group {
+    position: relative;
+}
+
+.container {
+    width: 450px;
+    margin: auto;
+    background-color: rgb(228, 228, 228);
+}
+
+.form-group i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.form-group .error-text {
+    color: red;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+}
+h2,p {
+    text-align: center;
+}

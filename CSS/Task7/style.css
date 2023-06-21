@@ -1,0 +1,15 @@
+h1,h3{
+    text-align: center;
+}
+h3 {
+    margin-bottom: 70px;
+}
+.task7{
+    position: relative;
+    left:100px;
+    display: inline-block;
+    border: 4px solid rgb(90, 223, 90);
+    margin: 10px 100px;
+    width: 180px;
+    height: 100px;
+}
